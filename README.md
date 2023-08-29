@@ -1,5 +1,14 @@
 # FlyinDiamonds
 
+## General rules
+
+For objects that you want to plan transitions, you need to ensure the exact number of vertices, such as drones
+Be careful, the vertices must not overlap
+
+Minimum distance for transition must not be greater than 70% of the smallest distance between two vertices in mesh.
+For example - if I want to keep a drone distance of 2 m for a transition, I have to keep the vertexes at least 2.9 m apart.
+
+
 ## Frames
 
 ### Frame duration
