@@ -9,6 +9,33 @@ Minimum distance for transition must not be greater than 70% of the smallest dis
 For example - if I want to keep a drone distance of 2 m for a transition, I have to keep the vertexes at least 2.9 m apart.
 
 
+## Planning
+
+### Swarm area
+- define and check area for swarm
+
+![Swarm area](gifs/swarm_area.gif)
+
+### Swarm initialize
+- initialize drones
+
+![Swarm initialize](gifs/swarm_init.gif)
+
+### Swarm plan transition
+- maps drones to vertices of selected object and plan transition to their locations
+
+![Swarm plan transition](gifs/swarm_transition.gif)
+
+### Swarm distance
+- check minimal distance between drones
+
+![Swarm distance](gifs/swarm_distance.gif)
+
+### Swarm speed
+- check maximal horizontal and vertical drones speed
+
+![Swarm speed](gifs/swarm_speed.gif)
+
 ## Frames
 
 ### Frame duration
